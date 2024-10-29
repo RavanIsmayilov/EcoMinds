@@ -26,7 +26,7 @@ const Home = () =>{
               <div className="navbar">
                 <div className='navbar-head'>
                   <Link to="/"> <img src={HeaderLogo} alt="HeaderLogo" /></Link>
-                  <h1 className="logo">EcoMinds</h1>
+                  <Link className="logo-link" to="/"> <h1 className="logo">EcoMinds</h1></Link>
                 </div>
                 <nav>
                   <ul>

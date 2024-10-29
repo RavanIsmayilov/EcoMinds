@@ -45,8 +45,13 @@ body {
     gap: 10px;
   
   }
+
+  .logo-link{
+    text-decoration: none;
+  }
   
   .navbar .logo {
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Sora;
     font-size: 32px;
@@ -376,7 +381,7 @@ body {
   }
   
   .questions{
-    width: 1276.9px;
+    width: 1261.9px;
     display: flex;
     flex-direction: column;
   }
@@ -392,7 +397,7 @@ body {
   }
   
   .faq-question {
-    width: 1276.9px;
+    width: 100%;
     padding: 30px;
     cursor: pointer;
     border-bottom: 1px solid #eeeeeea5;
@@ -414,7 +419,7 @@ body {
   }
   
   .faq-answer {
-    width: 663px;
+    width: 100%;
     color: rgb(0, 0, 0);
     font-family: Sora;
     font-size: 20px;

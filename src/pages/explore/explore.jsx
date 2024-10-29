@@ -29,7 +29,7 @@ const Explore = () => {
               <div className="navbar">
                 <div className='navbar-head'>
                   <Link to="/"> <img src={HeaderLogo} alt="HeaderLogo" /></Link>
-                  <h1 className="logo1">EcoMinds</h1>
+                  <Link className="logo-link" to="/"> <h1 className="logo1">EcoMinds</h1></Link>
                 </div>
                 <nav>
                   <ul>
