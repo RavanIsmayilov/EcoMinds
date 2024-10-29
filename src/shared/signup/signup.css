@@ -1,0 +1,10 @@
+
+
+.login-form-head{
+    display: flex;
+    gap: 15px;
+}
+.login-form-head-input{
+    display: flex;
+    flex-direction: column;
+}

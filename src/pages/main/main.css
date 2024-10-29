@@ -1,0 +1,87 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../../assets/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texts{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 130px;
+    padding-bottom: 130px;
+}
+
+.texts-title{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.texts-subtitle{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+
+.texts-info{
+    width: 800px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main-btn{
+    width: 199px;
+    height: 54px;
+    border-radius: 32px;
+    background: rgb(0, 192, 166);
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.main-btn-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.navbar-head input{
+    width: 246px;
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 8px 16px 8px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    border-radius: 16px;
+    background: rgb(247, 247, 247);
+    outline: none;
+    margin-left: 35px;
+}
