@@ -10,7 +10,7 @@
 }
 
 .texts{
-    width: 1300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -29,6 +29,7 @@
 }
 
 .texts-subtitle{
+    width: 100%;
     color: rgb(0, 0, 0);
     font-family: Poppins;
     font-size: 48px;
@@ -39,7 +40,7 @@
 }
 
 .texts-info{
-    width: 800px;
+    width: 100%;
     color: rgb(0, 0, 0);
     font-family: Poppins;
     font-size: 24px;
@@ -70,8 +71,12 @@
     text-align: center;
 }
 
+.navbar{
+    gap: 15px;
+}
+
 .navbar-head input{
-    width: 246px;
+    width: 100%;
     height: 34px;
     display: flex;
     flex-direction: column;
