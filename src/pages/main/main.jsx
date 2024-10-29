@@ -11,7 +11,7 @@ const Main = () => {
         <header>
               <div className="navbar">
                 <div className='navbar-head'>
-                  <img src={HeaderLogo} alt="HeaderLogo" />
+                  <Link to="/"> <img src={HeaderLogo} alt="HeaderLogo" /></Link>
                   <h1 className="logol">EcoMinds</h1>
                   <input type="text" placeholder="Search" />
                 </div>

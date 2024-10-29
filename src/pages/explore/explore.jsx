@@ -28,7 +28,7 @@ const Explore = () => {
         <header>
               <div className="navbar">
                 <div className='navbar-head'>
-                  <img src={HeaderLogo} alt="HeaderLogo" />
+                  <Link to="/"> <img src={HeaderLogo} alt="HeaderLogo" /></Link>
                   <h1 className="logo1">EcoMinds</h1>
                 </div>
                 <nav>

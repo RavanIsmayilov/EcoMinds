@@ -18,11 +18,13 @@ body {
     justify-content: space-between;
   }
   .home-head main{
+    width: 100%;
    z-index: 999;
   }
   
   
   header {
+    width: 100% ;
     background: transparent;
     padding: 15px 60px;
     display: flex;
@@ -169,6 +171,7 @@ body {
   
   
   .footer1{
+    width: 100%;
     position: relative;
     z-index: 1;
   }
@@ -230,6 +233,7 @@ body {
   }
   
   .main-title {
+    width: 100%;
     color: rgb(27, 27, 27);
     font-family: Sora;
     font-size: 48px;
@@ -358,6 +362,7 @@ body {
   
   
   .faq{
+    width: 100%;
     padding: 60px;
   }
   
@@ -409,7 +414,7 @@ body {
   }
   
   .faq-answer {
-    width: 1248px;
+    width: 663px;
     color: rgb(0, 0, 0);
     font-family: Sora;
     font-size: 20px;
@@ -501,6 +506,7 @@ body {
   
   
   .footer {
+    width: 100%;
     background-color: #fff;
     padding: 50px 20px;
     text-align: center;
@@ -565,3 +571,108 @@ body {
     text-align: left;
     text-transform: capitalize;
   }
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  /* Navbar */
+  header {
+      padding: 15px 30px;
+  }
+  
+  .navbar nav ul {
+      gap: 40px;
+  }
+  
+  /* Hero Section */
+  .hero h2 {
+      font-size: 48px;
+  }
+  
+  .hero p {
+      font-size: 20px;
+  }
+  
+  /* Journey Section */
+  .journey {
+      padding: 60px 20px;
+  }
+  
+  /* Steps */
+  .steps {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  header {
+      flex-direction: column;
+      padding: 15px;
+  }
+  
+  .navbar .logo {
+      font-size: 24px;
+  }
+  
+  .navbar nav ul {
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  /* Hero Section */
+  .hero h2 {
+      font-size: 36px;
+  }
+  
+  .hero p {
+      font-size: 18px;
+  }
+  
+  /* Companies Section */
+  .companies-main {
+      gap: 40px;
+      flex-direction: column;
+  }
+  
+  /* Steps */
+  .steps {
+      gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Navbar */
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  /* Hero Section */
+  .hero h2 {
+      font-size: 28px;
+  }
+  
+  .hero p {
+      font-size: 16px;
+  }
+  
+  /* Footer Section */
+  .footer1-end {
+      padding: 20px;
+      font-size: 14px;
+  }
+  
+  /* Buttons */
+  .auth-buttons .login,
+  .auth-buttons .get-started {
+      padding: 8px 15px;
+      font-size: 16px;
+  }
+  
+  /* Journey Section */
+  .journey {
+      padding: 40px 15px;
+  }
+}

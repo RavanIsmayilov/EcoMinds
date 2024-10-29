@@ -25,14 +25,14 @@ const Home = () =>{
           <header>
               <div className="navbar">
                 <div className='navbar-head'>
-                  <img src={HeaderLogo} alt="HeaderLogo" />
+                  <Link to="/"> <img src={HeaderLogo} alt="HeaderLogo" /></Link>
                   <h1 className="logo">EcoMinds</h1>
                 </div>
                 <nav>
                   <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Listings</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Support</a></li>
                   </ul>
                 </nav>
@@ -192,7 +192,7 @@ const Home = () =>{
             </div>
           </section>
 
-          <section className="started-section">
+          <section id="about" className="started-section">
             <img src={StartedLogoAlt} alt="StartedLogoAlt" />
               <div className="started">
                 <h1>About Us</h1>
@@ -217,24 +217,21 @@ const Home = () =>{
                         <img src={HeaderLogo} alt="HeaderLogo" />
                         <h1 className="logo">EcoMinds</h1>
                       </div>
-                      <p>Copyright © 2023 Frapisky Design. All Rights Reserved.</p>
+                      <p>© 2024 EcoMinds Site. All Rights Reserved.</p>
                   </div>
                   <div className="footer-section">
                       <h4>Browse</h4>
                       <ul>
-                          <li>Clothings</li>
-                          <li>Electronics</li>
-                          <li>Books</li>
-                          <li>Furnitures</li>
-                          <li>Decorations</li>
-                          <li>Sports Equipment</li>
+                          <li>Home</li>
+                          <li>About</li>
+                          <li>Listings</li>
+                          <li>Support</li>
                       </ul>
                   </div>
                   <div className="footer-section">
                       <h4>General</h4>
                       <ul>
-                          <li>Careers</li>
-                          <li>About</li>
+                          <li>Instagram</li>
                           <li>Twitter</li>
                           <li>LinkedIn</li>
                       </ul>
@@ -244,7 +241,7 @@ const Home = () =>{
                       <ul>
                           <li>Help Center</li>
                           <li>Status</li>
-                          <li>Support@Ecoswap.Co</li>
+                          <li>Support@Ecominds.Co</li>
                       </ul>
                   </div>
                   <div className="footer-section">
